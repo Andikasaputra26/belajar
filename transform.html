@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            text-align: center;
+        }
+        /* 
+        scale(angka), scaleX(angka), scaleY(angka)
+        rorate(deg), rorateX(deg), rorateY(deg)
+        skew(deg),skewX(deg), skewY(deg)
+        translate(px), translateX(px), translateY(px) */
+        .kotak{
+            width: 200px;
+            height: 200px;
+            /* background-color: lightblue; */
+            margin: 50px auto 0;
+            transition: 1s;
+            box-shadow: 5px 10px 5px black;
+            /* position: fixed; */
+            background-color: lightblue;
+            border-bottom: 3px solid salmon;
+            opacity: 0.7;
+            z-index: 9999;
+            /* transform: scale(.5); */
+        }
+
+        .kotak:hover{
+            transform: translate(50px,100px);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak">asjsa</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, temporibus aspernatur. Rerum soluta laborum veritatis.</p>
+</body>
+</html>

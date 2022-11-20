@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Css3</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        /* filter
+        blur(px)
+        brightness(angka | %)
+        contrast(angka | %)
+        saturate(angka | %)
+        grayscale(angka | %)
+        sepia(angka | %)
+        hue-rotate(deg)
+        invert(angka | %)
+        opacity(angka | %)
+        drop-shadow(sama seperti box-shadow) */
+        h1{
+            /* width: 500px; */
+            margin: 5px auto;
+            /* border-left: 50px; */
+            color: white;
+            font-size: 60px;
+            /* box-shadow: 5px 5px 5px black; */
+            -webkit-filter:drop-shadow(5px 5px 5px black);
+        }
+        
+        img{
+            padding-top: 50px;
+            -webkit-filter:blur(5px) grayscale(10%);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>WEB PROGRAMMING</h1>
+    <img src="2.jpg" alt="Andika" width="400px">
+</body>
+</html>
